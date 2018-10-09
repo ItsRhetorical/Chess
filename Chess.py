@@ -356,6 +356,7 @@ def keyboard_controls(key):
 
 build_board()
 place_tokens()
+draw_screen(Grid)
 while True:
     time.sleep(RefreshRate)
     if kbhit():
